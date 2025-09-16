@@ -6,6 +6,8 @@ import SplashScreen from '../screens/SplashScreen';
 import OfflineScreen from '../screens/OfflineScreen';
 import WelcomeScreen from '../screens/WelcomeScreen';
 import Ready from '../screens/Ready'
+import Permisions from '../screens/Permissions'
+import PhoneDenialScreen from '../screens/PhoneDenialScreen'
 const Stack = createStackNavigator();
 
 export default function RootNavigator() {
@@ -24,6 +26,8 @@ export default function RootNavigator() {
       <Stack.Screen name="Offline" component={OfflineScreen} options={{ headerShown: false }} />
       <Stack.Screen name="welcome" component={WelcomeScreen} options={{ headerShown: false }} />
       <Stack.Screen name="ready" component={Ready} options={{ headerShown: false }} />
+      <Stack.Screen name="permisions" component={Permisions} options={{ headerShown: false }} />
+      <Stack.Screen name="PhoneDenial" component={PhoneDenialScreen} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 }

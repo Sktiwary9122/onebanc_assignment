@@ -11,7 +11,7 @@ import {
 } from '../components/SvgIcons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const WelcomeScreen = ({ navigation }) => {
+const Ready = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.curveContainer}>
@@ -56,7 +56,7 @@ const WelcomeScreen = ({ navigation }) => {
         </Text>
       </View>
       
-      <TouchableOpacity style={{ position: 'absolute', bottom: 30 }} onPress={() => navigation.push('ready')}>
+      <TouchableOpacity style={{ position: 'absolute', bottom: 30 }} onPress={() => navigation.push('permisions')}>
         <Text
           style={{
             fontSize: 18,
@@ -81,7 +81,7 @@ const WelcomeScreen = ({ navigation }) => {
   );
 };
 
-export default WelcomeScreen;
+export default Ready;
 
 const styles = StyleSheet.create({
   container: {

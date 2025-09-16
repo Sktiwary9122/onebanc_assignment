@@ -1266,7 +1266,7 @@ export function Cross(props) {
   )
 }
 
-export function permissionGraphic(props) {
+export function PermissionGraphic(props) {
   return (
     <Svg
       xmlns="http://www.w3.org/2000/svg"
@@ -1936,3 +1936,951 @@ export function permissionGraphic(props) {
   )
 }
 
+export function Camera(props) {
+  return (
+    <Svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={50}
+      height={50}
+      viewBox="0 0 50 50"
+      {...props}
+    >
+      <G
+        data-name="Rectangle 5116"
+        transform="translate(0 -.04) translate(0 .04)"
+        fill="#3d345a"
+        stroke="#d5d5d5"
+        strokeWidth={1}
+      >
+        <Rect width={50} height={50} rx={25} stroke="none" />
+        <Rect x={0.5} y={0.5} width={49} height={49} rx={24.5} fill="none" />
+      </G>
+      <Path
+        data-name="Path 34320"
+        d="M10.829 42a3.553 3.553 0 00-3.258 2.032c-.264.629-.527 1.265-.79 1.9h-.852A3.81 3.81 0 002 49.661v10.41A3.937 3.937 0 005.929 64h14.142A3.937 3.937 0 0024 60.071v-10.41a3.81 3.81 0 00-3.929-3.732h-.851l-.78-1.874A3.489 3.489 0 0015.171 42zM13 49.857a4.714 4.714 0 11-4.714 4.714A4.726 4.726 0 0113 49.857zm6.286 0a.786.786 0 11-.786.786.786.786 0 01.786-.786z"
+        transform="translate(0 -.04) translate(12 -27.96)"
+        fill="#fff"
+      />
+    </Svg>
+  )
+}
+
+export function Location(props) {
+  return (
+    <Svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={50}
+      height={50}
+      viewBox="0 0 50 50"
+      {...props}
+    >
+      <G
+        data-name="Rectangle 5116"
+        transform="translate(-.328 -.368) translate(.328 .368)"
+        fill="#3d345a"
+        stroke="#d5d5d5"
+        strokeWidth={1}
+      >
+        <Rect width={50} height={50} rx={25} stroke="none" />
+        <Rect x={0.5} y={0.5} width={49} height={49} rx={24.5} fill="none" />
+      </G>
+      <Path
+        data-name="Path 34321"
+        d="M174 201.992a8.836 8.836 0 00-9 8.637 14.5 14.5 0 002.685 7.529 23.854 23.854 0 004.462 5.181 2.954 2.954 0 003.706 0 23.856 23.856 0 004.463-5.181 14.5 14.5 0 002.684-7.529 8.837 8.837 0 00-9-8.637zm0 3.926a4.715 4.715 0 11-4.909 4.711 4.825 4.825 0 014.909-4.711z"
+        transform="translate(-.328 -.368) translate(-148.672 -187.624)"
+        fill="#fff"
+      />
+    </Svg>
+  )
+}
+
+export function Mic(props) {
+  return (
+    <Svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={50}
+      height={50}
+      viewBox="0 0 50 50"
+      {...props}
+    >
+      <G
+        data-name="Rectangle 5116"
+        transform="translate(.584 .544) translate(-.584 -.544)"
+        fill="#3d345a"
+        stroke="#d5d5d5"
+        strokeWidth={1}
+      >
+        <Rect width={50} height={50} rx={25} stroke="none" />
+        <Rect x={0.5} y={0.5} width={49} height={49} rx={24.5} fill="none" />
+      </G>
+      <Path
+        data-name="Path 34322"
+        d="M54.175 82A5.419 5.419 0 0049 87.624v4.82a5.193 5.193 0 1010.351 0v-4.82A5.419 5.419 0 0054.175 82z"
+        transform="translate(.584 .544) translate(-29.759 -68.544)"
+        fill="#fff"
+      />
+      <Path
+        data-name="Path 34323"
+        d="M46.009 97.088a.814.814 0 00-.487 1.012 8.557 8.557 0 007.2 6.1v1.646h-2.281a.8.8 0 000 1.607h6.086a.8.8 0 000-1.607h-2.282V104.2a8.557 8.557 0 007.2-6.1.814.814 0 00-.487-1.012.753.753 0 00-.958.512 6.734 6.734 0 01-13.031 0 .73.73 0 00-.96-.515z"
+        transform="translate(.584 .544) translate(-29.068 -71.997)"
+        fill="#fff"
+      />
+    </Svg>
+  )
+}
+
+export function Phone(props) {
+  return (
+    <Svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={50}
+      height={50}
+      viewBox="0 0 50 50"
+      {...props}
+    >
+      <G
+        data-name="Rectangle 5116"
+        transform="translate(-.883 -.883) translate(.883 .883)"
+        fill="#3d345a"
+        stroke="#d5d5d5"
+        strokeWidth={1}
+      >
+        <Rect width={50} height={50} rx={25} stroke="none" />
+        <Rect x={0.5} y={0.5} width={49} height={49} rx={24.5} fill="none" />
+      </G>
+      <Path
+        data-name="Path 34324"
+        d="M79.559 8h8.881A1.6 1.6 0 0190 9.6v18.8a1.553 1.553 0 01-1.559 1.6h-8.882A1.6 1.6 0 0178 28.4V9.6A1.644 1.644 0 0179.559 8zm0 3.47h8.881a.541.541 0 01.542.555v13.95a.541.541 0 01-.542.555h-8.881a.59.59 0 01-.542-.555v-13.95a.59.59 0 01.542-.555zm4.475 15.754a1.055 1.055 0 011.017 1.041 1.072 1.072 0 01-1.017 1.11 1.084 1.084 0 01-1.085-1.11 1.069 1.069 0 011.085-1.041z"
+        transform="translate(-.883 -.883) translate(-58.117 6.883)"
+        fill="#fff"
+        fillRule="evenodd"
+      />
+    </Svg>
+  )
+}
+
+export function Sms(props) {
+  return (
+    <Svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={50}
+      height={50}
+      viewBox="0 0 50 50"
+      {...props}
+    >
+      <G
+        data-name="Rectangle 5116"
+        transform="translate(-.496 -.021) translate(.496 .021)"
+        fill="#3d345a"
+        stroke="#d5d5d5"
+        strokeWidth={1}
+      >
+        <Rect width={50} height={50} rx={25} stroke="none" />
+        <Rect x={0.5} y={0.5} width={49} height={49} rx={24.5} fill="none" />
+      </G>
+      <Path
+        data-name="Path 34325"
+        d="M44.379 59H29.41a2.47 2.47 0 00-2.464 2.466v9.709a1.645 1.645 0 00.012.242l.007.063-2.105 4.3a.153.153 0 00.2.2l4.74-2.334h14.579a2.471 2.471 0 002.463-2.471v-9.709A2.471 2.471 0 0044.379 59zm-12.895 8.34a1.019 1.019 0 111.016-1.019 1.018 1.018 0 01-1.016 1.019zm5.41 0a1.019 1.019 0 111.016-1.019 1.018 1.018 0 01-1.016 1.019zm5.411 0a1.019 1.019 0 111.016-1.019 1.018 1.018 0 01-1.016 1.019z"
+        transform="translate(-.496 -.021) translate(-10.346 -41.979)"
+        fill="#fff"
+      />
+    </Svg>
+  )
+}
+
+export function GreenTick(props) {
+  return (
+    <Svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={30}
+      height={30}
+      viewBox="0 0 30 30"
+      {...props}
+    >
+      <G
+        data-name="Rectangle 5116"
+        fill="#26bb48"
+        stroke="#d5d5d5"
+        strokeWidth={1}
+      >
+        <Rect width={30} height={30} rx={15} stroke="none" />
+        <Rect x={0.5} y={0.5} width={29} height={29} rx={14.5} fill="none" />
+      </G>
+      <Path
+        data-name="Path 11182"
+        d="M97.265 132.727a.772.772 0 01-.6-.255l-3.177-3.263a.843.843 0 111.22-1.163l2.582 2.667 5.447-5.163a.843.843 0 011.163 1.22l-6.039 5.73a.975.975 0 01-.596.227z"
+        transform="translate(-83.5 -113.909)"
+        fill="#fff"
+      />
+    </Svg>
+  )
+}
+
+export function PhoneGraphic(props) {
+  return (
+    <Svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={375}
+      height={270.698}
+      viewBox="0 0 375 270.698"
+      {...props}
+    >
+      <Defs>
+        <ClipPath id="a">
+          <Path
+            data-name="Path 34193"
+            d="M370.038 4243.78c.1.583 1.672.919 5.094.919 3.4 0 5.883-3.854 5.883-3.854s-1.66-2.259-1.725-2.259-5.3-.134-5.3-.134l-4.166 3.292z"
+            transform="translate(-369.819 -4238.452)"
+            fill="none"
+          />
+        </ClipPath>
+      </Defs>
+      <G transform="translate(-193.933 -4038.532)">
+        <Path
+          transform="translate(225.212 4038.732)"
+          fill="none"
+          d="M0 0H314.341V269.8H0z"
+        />
+        <Path
+          data-name="Path 34105"
+          d="M600.864 4188.259c-19.6-19.474-49.726-21.918-76.645-28.154-42.984-9.959-82.545-32.031-125.8-40.725-15.744-3.165-32.623-4.406-47.4 1.88-11.754 5-21.165 14.376-28.648 24.727-18.309 25.32-26.221 59.875-13.731 88.517 12.527 28.725 41.837 45.757 69.308 60.836 16.328 8.965 33.473 18.313 51.167 24.137h65.821c38.751-9.253 52.283-42.737 86.828-62.583 7.162-4.113 14.775-7.5 21.47-12.339s12.563-11.469 14.336-19.536c3.395-15.446-8.672-29.645-20.087-40.591"
+          transform="translate(-108.644 -78.24)"
+          fill="#ece9fc"
+        />
+        <Path
+          data-name="Path 34101"
+          d="M575.556 4202.083a17.512 17.512 0 00-3.828-7.328c-5.093-5.957-12.364-8.676-19.46-11.328-33.633-12.57-69.025-27.208-89.518-56.5-6.794-9.714-12.123-21.183-22.337-27.274-11.2-6.683-25.924-5.022-37.481 1.033s-20.579 15.881-29.12 25.7-17.027 19.978-27.979 27.052c-13.9 8.977-30.624 12.277-46.845 15.69s-32.924 7.362-46.132 17.31-22.01 27.543-16.687 43.125c5.65 16.54 23.831 24.589 39.17 33.152 11.519 6.432 22.347 14.112 33.395 21.346h179.04l74.551-58.7c7.419-5.861 15.599-13.122 13.231-23.278z"
+          transform="translate(-7.039 -42.816)"
+          fill="#d8d2fc"
+        />
+        <Path
+          data-name="Path 33355"
+          d="M457.2 267.9h7.409l13.436.1c40.779-57.178 67.5-71.266 95.277-87.538-6.064-2.584-13.854-6.46-18.573-11.132 9.214 1.461 17.34 3.959 26.582 6.68 11.98-14.372 25.551-21.242 12.076-42.514-19.542-30.848-81.144 8.687-98.463 26.983a111.605 111.605 0 00.49 27.284 29.968 29.968 0 01-13.549-13.515C467.4 194.662 454.013 228.17 457.2 267.9zm58.5-61.361a3.426 3.426 0 014.191-2.916 3.807 3.807 0 013 4.392 3.271 3.271 0 01-4.065 2.808 3.705 3.705 0 01-3.132-4.288z"
+          transform="translate(-50.69 3980.53)"
+          fill="#b8b8b8"
+        />
+        <Path
+          data-name="Path 33356"
+          d="M532.088 4122.854c-77.663 47.158-83.862 57.635-118.267 126.317"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={0.75}
+        />
+        <Path
+          data-name="Path 33357"
+          d="M525.31 4145.257c-6.2-2.671-11.332-4.994-17.713-7.2 2-7.546 3.216-14.993 5.334-22.5"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={0.75}
+        />
+        <Path
+          data-name="Path 33358"
+          d="M505.812 4163.6c-9.421-2.056-18.868-3.512-28.444-4.626a156.653 156.653 0 013.49-25.737"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={0.75}
+        />
+        <Path
+          data-name="Path 33359"
+          d="M487.302 4176.828c-9.223-.792-19.1-1.365-28.358-1.253a192.245 192.245 0 01-.214-26.584"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={0.75}
+        />
+        <Path
+          data-name="Path 33360"
+          d="M463.521 4195.343a77.731 77.731 0 00-21.91 2.427c-3.426-7.981-8.8-15.954-10.8-24.406"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={0.75}
+        />
+        <Path
+          data-name="Path 33361"
+          d="M447.444 4211.656c-7.572 1.695-13.039 5.373-19.392 9.629-5.539-7.291-11.566-14.9-15.924-22.951"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33362"
+          d="M492.136 4120.925c-1.367 2.013-.792 4.224 1.447 5.106a5.515 5.515 0 006.331-1.9 3.217 3.217 0 00-1.43-5.135 5.3 5.3 0 00-6.348 1.929z"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={0.75}
+        />
+        <Path
+          data-name="Path 33384"
+          d="M534.743 4110.38c-2.855-1.331-4.334-3.051-7.788-3.4-15.86-1.59-31.535 3.5-45.7 10.767"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33385"
+          d="M543.434 4123.959a27.407 27.407 0 00-4.2-9.1"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33386"
+          d="M519.459 4151.157c-4.2-1.1-8.453-2.08-12.725-2.871"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33387"
+          d="M525.898 4153.082c-1.288-.39-2.572-.794-3.856-1.2"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33388"
+          d="M436.297 4167.409c-2.732-1.681-5.508-3.5-6.974-6.423"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33389"
+          d="M442.612 4170.356c-1.351-.546-2.688-1.085-4.007-1.711"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33390"
+          d="M459.083 4208.7c-4.944 6.739-8.071 14.57-13.127 21.235"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33391"
+          d="M464.693 4201.595c-1.009 1.266-2.076 2.478-3.151 3.687"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33454"
+          d="M283.935 184.8a14.159 14.159 0 005.875-9.006c1.071-6.039-1.041-10.716.5-12.864.002.004-13.638 12.337-6.375 21.87z"
+          transform="translate(-61.315 3913.528)"
+          fill="#5b5b5b"
+        />
+        <Path
+          data-name="Path 33455"
+          d="M292.98 201.663a14.158 14.158 0 005.875-9c1.071-6.041-1.042-10.718.5-12.865.002-.004-13.638 12.329-6.375 21.865z"
+          transform="translate(-55.029 3925.246)"
+          fill="#5b5b5b"
+        />
+        <Path
+          data-name="Path 33456"
+          d="M301.354 194.565a14.156 14.156 0 00-9.743-4.546c-6.133-.208-10.464 2.544-12.808 1.319-.003-.001 14.133 11.762 22.551 3.227z"
+          transform="translate(-63.402 3932.344)"
+          fill="#5b5b5b"
+        />
+        <Path
+          data-name="Path 33457"
+          d="M301.807 212.651a14.152 14.152 0 005.875-9c1.071-6.041-1.042-10.716.5-12.865.002-.004-13.638 12.329-6.375 21.865z"
+          transform="translate(-48.893 3932.884)"
+          fill="#5b5b5b"
+        />
+        <Path
+          data-name="Path 33458"
+          d="M310.181 205.552a14.158 14.158 0 00-9.743-4.544c-6.133-.208-10.464 2.543-12.808 1.317 0 0 14.133 11.763 22.551 3.227z"
+          transform="translate(-57.267 3939.983)"
+          fill="#5b5b5b"
+        />
+        <Path
+          data-name="Path 33459"
+          d="M310.526 223.575a12.5 12.5 0 005.189-7.953c.946-5.336-.92-9.465.442-11.362-.001 0-12.047 10.892-5.631 19.315z"
+          transform="translate(-42.661 3942.252)"
+          fill="#5b5b5b"
+        />
+        <Path
+          data-name="Path 33460"
+          d="M317.921 217.3a12.506 12.506 0 00-8.608-4.014c-5.416-.185-9.24 2.246-11.311 1.163-.002.005 12.485 10.395 19.919 2.851z"
+          transform="translate(-50.057 3948.521)"
+          fill="#5b5b5b"
+        />
+        <Path
+          data-name="Path 33461"
+          d="M224.085 4094.138s-6.565 9.224 9.889 28.328 55.213 60.394 46.9 99.079"
+          fill="none"
+          stroke="#5b5b5b"
+          strokeMiterlimit={10}
+          strokeWidth={0.75}
+        />
+        <Path
+          data-name="Path 33462"
+          d="M271.462 4151.676s-3.671 5.87-3.385 11.845"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33463"
+          d="M265.67 4165.71a18.258 18.258 0 00-14-1.456"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33464"
+          d="M250.05 4144.958s-9.07-2.224-16.137-1.365"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33465"
+          d="M257.325 4128.125s-4.033 8.172-3.7 14.042"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33466"
+          d="M242.497 4108.822s-4.575 8.109-4.543 15.047"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33467"
+          d="M235.532 4126.496s-10.813-2.714-15.8-1.4"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 33468"
+          d="M226.629 4081.132a70.159 70.159 0 00-3.492 15.067"
+          fill="none"
+          stroke="#fff"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Rectangle 8524"
+          transform="translate(271.472 4038.532)"
+          fill="#e8e8e8"
+          d="M0 0H116.057V197.831H0z"
+        />
+        <Path
+          data-name="Path 34158"
+          d="M292.391 4063.927l22.6 3.845 93.456-15.657v-4.643H292.391z"
+          transform="translate(-20.919 -8.941)"
+          fill="#fff"
+        />
+        <Path
+          data-name="Path 34159"
+          d="M314.992 4072.081v177.532h-22.6v-181.377z"
+          transform="translate(-20.919 -13.25)"
+          fill="#c4c4c4"
+        />
+        <Path
+          data-name="Rectangle 8525"
+          transform="translate(271.472 4093.112)"
+          fill="#383838"
+          d="M0 0H116.057V7.905H0z"
+        />
+        <Path
+          data-name="Rectangle 8526"
+          transform="translate(271.472 4040.519)"
+          fill="#383838"
+          d="M0 0H116.057V5.311H0z"
+        />
+        <Path
+          data-name="Rectangle 8527"
+          transform="translate(271.472 4049.675)"
+          fill="#383838"
+          d="M0 0H116.057V5.311H0z"
+        />
+        <Path
+          data-name="Rectangle 8528"
+          transform="translate(271.472 4058.832)"
+          fill="#383838"
+          d="M0 0H116.057V5.311H0z"
+        />
+        <Path
+          data-name="Rectangle 8529"
+          transform="translate(271.472 4067.989)"
+          fill="#383838"
+          d="M0 0H116.057V5.311H0z"
+        />
+        <Path
+          data-name="Path 32514"
+          d="M427.733 4101.262v-11.2a.744.744 0 00-1.488 0v11.205a2.658 2.658 0 101.488 0zm-.744 3.767a1.185 1.185 0 111.169-1.2v.013a1.178 1.178 0 01-1.168 1.188z"
+          transform="translate(-48.298 -17.625)"
+          fill="#fff"
+        />
+        <Path
+          data-name="Rectangle 8530"
+          transform="translate(263.666 4236.363)"
+          fill="#383838"
+          d="M0 0H167.495V12.039H0z"
+        />
+        <Path
+          data-name="Rectangle 8646"
+          transform="rotate(-76.05 2828 1926.347)"
+          fill="#eaba24"
+          d="M0 0H8.926V36.038H0z"
+        />
+        <Path
+          data-name="Path 34160"
+          d="M313.582 4204.31h0a3.837 3.837 0 004.739-4.148l-2.42-21.792-1.12-10.089-1.049-9.454-24.247-6.028-14.247 36.287a4.889 4.889 0 003.37 6.532h0"
+          fill="#eaba24"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34161"
+          d="M357.138 4185.766c2.584-4.6-10.55-15.552-10.55-15.552l-3.94-3.576-16.848-16.257-17.328 13.369 18.019 17.328s5.645 6.107 8.43 8.611 5.555 5.233 10.916 4.641 8.718-3.962 11.301-8.564z"
+          fill="#5d5d5d"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34162"
+          d="M341.251 4193.771a10.22 10.22 0 0013.6-.882l14.425-12.9-9.173-11.885s-17.737 8.524-18.837 9.374"
+          fill="#5d5d5d"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Ellipse
+          data-name="Ellipse 3773"
+          cx={5.984}
+          cy={7.905}
+          rx={5.984}
+          ry={7.905}
+          transform="rotate(-38.617 6130.974 1579.326)"
+          fill="#262626"
+        />
+        <Path
+          data-name="Path 34163"
+          d="M402.155 4215.522a6.6 6.6 0 01-.85.08 8.759 8.759 0 002.013 6.243c2.12 2.579 3.383 2.836 3.383 2.836l.838-.689.36-5.127z"
+          transform="translate(-43.492 -44.013)"
+          fill="#ffac9c"
+        />
+        <Path
+          data-name="Path 34164"
+          d="M367.507 4145.587l-1.106.082c-.651.18-.871.346-3.787 10.418l-1.98 6.292a.654.654 0 00.219.711l2.224 1.745 9.179-5.939 2.721-10.154a1.164 1.164 0 00-.825-1.427l-6.382-1.7a.8.8 0 00-.263-.028z"
+          fill="#ffa400"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34166"
+          d="M363.265 4153.186c.517.305 4.258 2.6 5.383 4.281"
+          fill="#ffac9c"
+          stroke="#262626"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <G data-name="Group 26615">
+          <G data-name="Group 26614">
+            <G data-name="Group 26613">
+              <Path
+                data-name="Path 34167"
+                d="M15.997 13.388c.626-3.469.254-4.455 2.336-7.1 1.367-1.737.844-3.354-1.255-2.417-3.432 1.535-5.179 5.84-5.355 7.507z"
+                fill="#ffac9c"
+                stroke="#262626"
+                strokeMiterlimit={10}
+                strokeWidth={1}
+                transform="translate(358.251 4147.482)"
+              />
+              <G data-name="Group 26611">
+                <Path
+                  data-name="Path 34168"
+                  d="M6.046 32.835a9.293 9.293 0 002.691-3.319s3.131-6.326 3.531-7a35.9 35.9 0 003.366-7.464A13.08 13.08 0 0011.92 1.263c-1.775-1.7-4.371-1.888-2.918.667 1.128 1.981 2.291 3.072 2.6 4.384 0 0-3.668-.858-4.959.47-.577.594-.645 3.838-1.658 5.3a7.168 7.168 0 00.642.646s.033.195-.388 1.093-3.577 5.336-3.565 7.714-1.675 2.23-1.675 2.23"
+                  fill="#ffac9c"
+                  stroke="#262626"
+                  strokeLinecap="round"
+                  strokeMiterlimit={10}
+                  strokeWidth={1}
+                  transform="translate(358.251 4147.482)"
+                />
+              </G>
+              <G data-name="Group 26612">
+                <Path
+                  data-name="Path 34169"
+                  d="M9.395 2.499C7.409.539 2.645-.769 1.904.507c-.758 1.306 1.692 2.33 1.692 2.33-.724-.172-1.907-.586-2.641.6a1.192 1.192 0 00.423 1.709 1.924 1.924 0 00-1.27 1.057C-.536 7.558 1.802 7.627 2.49 9.516"
+                  fill="#ffac9c"
+                  stroke="#262626"
+                  strokeLinecap="round"
+                  strokeMiterlimit={10}
+                  strokeWidth={1}
+                  transform="translate(358.251 4147.482) translate(2.884 4.45)"
+                />
+              </G>
+            </G>
+          </G>
+        </G>
+        <Path
+          data-name="Path 34170"
+          d="M364.733 4154.771c.615.366 3.03.981 4.665 2.491"
+          fill="#ffac9c"
+          stroke="#262626"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34171"
+          d="M362.516 4157.078a6.614 6.614 0 014.119 1.984"
+          fill="#ffac9c"
+          stroke="#262626"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34172"
+          d="M369.426 4216.912a16.755 16.755 0 00-10.392-4.56l-7.814-.384-1.908-.248s-45.45-6.9-64.134-7.444l-8.388-.02s-1.075 14.595 2.775 23.424c4.5 10.329 33.747 11.683 57.163 12.69l.006-.011 10.339.3 10.357.046 55.475 53.381 18.072-18.781z"
+          fill="#151516"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Rectangle 8647"
+          d="M455.087 4275.29l2.117 1.98h0l-29.227 31.237h0l-16.29-15.242h0l15.965-17.063a19.41 19.41 0 0127.435-.913z"
+          fill="#1c191a"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={0.99969}
+        />
+        <Path
+          data-name="Rectangle 8648"
+          transform="rotate(43.1 -5187.389 2713.657)"
+          fill="#f7f7f7"
+          d="M0 0H3.352V42.791H0z"
+        />
+        <Circle
+          data-name="Ellipse 3774"
+          cx={0.95}
+          cy={0.95}
+          r={0.95}
+          transform="translate(436.282 4271.594)"
+          fill="#fff"
+        />
+        <Circle
+          data-name="Ellipse 3775"
+          cx={0.95}
+          cy={0.95}
+          r={0.95}
+          transform="translate(433.235 4273.256)"
+          fill="#fff"
+        />
+        <Circle
+          data-name="Ellipse 3776"
+          cx={0.95}
+          cy={0.95}
+          r={0.95}
+          transform="translate(439.922 4270.963)"
+          fill="#fff"
+        />
+        <Circle
+          data-name="Ellipse 3777"
+          cx={0.95}
+          cy={0.95}
+          r={0.95}
+          transform="translate(443.645 4271.013)"
+          fill="#fff"
+        />
+        <Path
+          data-name="Path 34173"
+          d="M296.477 4242.453s-.021.022-.052.065l.09.175z"
+          transform="translate(-21.734 -49.602)"
+          fill="none"
+        />
+        <Path
+          data-name="Path 34174"
+          d="M278.076 4229.767l-6.1-58.908 5.729-20.4 47.208-.173s12.1 23.469 2.767 53.473l.1 4.3-24.661 9.994-24.279 12.138a.534.534 0 01-.764-.424z"
+          fill="#3d3d3d"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34176"
+          d="M325.136 4174.12l.157 11.843a4.664 4.664 0 004.661 4.313h.884a4.665 4.665 0 004.594-5.419l-.728-4.437z"
+          transform="translate(-27.692 -35.421)"
+          fill="#ffae9d"
+        />
+        <Path
+          data-name="Path 34177"
+          d="M335.086 4181.506c.3.028.572.627.623.976l.327 2.052c-5.21-.325-6.883-5.647-6.883-5.647 1.157 1.288 4.563 2.494 5.933 2.619z"
+          transform="translate(-28.526 -36.411)"
+          fill="#262626"
+        />
+        <Path
+          data-name="Path 34178"
+          d="M326.856 4171.834a16.275 16.275 0 001.481 3.551c.776 1.156 7.455 4.527 8.965 3.521 1.294-.862 1.518-4.812 1.613-7.1a44.011 44.011 0 00-.236-8.09l-8.908-1.748-3.27 7.271z"
+          transform="translate(-27.975 -32.9)"
+          fill="#ffae9d"
+        />
+        <Path
+          data-name="Path 34179"
+          d="M327.337 4172.669a2.138 2.138 0 11-2.142-2.134 2.139 2.139 0 012.142 2.134z"
+          transform="translate(-27.262 -34.678)"
+          fill="#ffae9d"
+        />
+        <Path
+          data-name="Path 34180"
+          d="M340.96 4158.243a4.463 4.463 0 00-2.142-2.693 7.216 7.216 0 00-6.61-.8 25.532 25.532 0 00-4.376 2.682 6.605 6.605 0 01-4.754 1.331l1.372 1.442a11.355 11.355 0 01-2.379 1.725l1.2.612a14.579 14.579 0 00.537 3.6c.06.216 0 1.125.161 1.269a2.513 2.513 0 01.819-.222c1.214-.057 2.161 1.092 2.439 2.4q.042-1.681-.057-3.359a2.319 2.319 0 001.459-1.382 2.721 2.721 0 00-.072-2.125c.705-.018 1.263-.628 1.8-1.138s1.012-.4 1.659-.084a4.818 4.818 0 003 .574 4.6 4.6 0 011.917.685 2.622 2.622 0 002.145-.144c.409-.279 2.463-1.016 1.882-4.373z"
+          transform="translate(-27.056 -31.307)"
+          fill="#3f3333"
+        />
+        <Path
+          data-name="Path 34181"
+          d="M340.471 4180.52c.332-1.227.561-2.869.277-3.235a5.213 5.213 0 00-1.96-1.236c-.175.163-.637.061-.727 0-2.076.439-3.219.948-3.29 1.415a23.553 23.553 0 00-.236 4.029c.154.57 2.4 1.389 3.836 1.342s1.768-1.088 2.1-2.315zm-1.375.346a8 8 0 01-.3-1.683 2.1 2.1 0 01-.911-.04s-.063 1.794-1.5 1.616-1.292-1.687-1.228-2.036 1.063-.982 1.587-1.006a4.091 4.091 0 001.622-.244c.42.252 1.557.49 1.732.652a5.622 5.622 0 01-.406 2.282c-.192.459-.459.534-.592.458z"
+          transform="translate(-29.634 -35.821)"
+          fill="#3f3333"
+        />
+        <Path
+          data-name="Path 34175"
+          d="M310.466 4150.414c2.063 2.164 7.144 7.314 8.667 22.876s-.794 29.178-.441 39.086l-16.131 7.105s-.344-10.01.319-22.937-8.079-30.418-8.661-37.721 1.087-8.425 1.087-8.425h2.38s3.287 4.7 5.828 4.7 4.338-4.691 4.338-4.691z"
+          fill="#fff"
+          stroke="#262626"
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34182"
+          d="M398.753 4243.908a1 1 0 00-.666.472l1.38-.168a.967.967 0 00-.714-.304z"
+          transform="translate(-42.83 -49.902)"
+          fill="#1d1d1d"
+        />
+        <Path
+          data-name="Path 34183"
+          d="M357.054 4221.202l41.06 65.067 23.223-11.829-38.061-73.431a13.067 13.067 0 00-11.914-7.05l-14.725.351-1.38.168-29.347 2.989.7 13.572z"
+          fill="#1d1d1d"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Rectangle 8649"
+          d="M444.197 4282.216l1.353 2.565h0l-37.848 19.964h0l-10.412-19.738h0l20.676-10.906a19.416 19.416 0 0126.231 8.115z"
+          fill="#111010"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Rectangle 8650"
+          transform="rotate(62.19 -3327.791 2508.628)"
+          fill="#f7f7f7"
+          d="M0 0H3.352V42.791H0z"
+        />
+        <Circle
+          data-name="Ellipse 3778"
+          cx={0.95}
+          cy={0.95}
+          r={0.95}
+          transform="translate(427.205 4272.93)"
+          fill="#fff"
+        />
+        <Circle
+          data-name="Ellipse 3779"
+          cx={0.95}
+          cy={0.95}
+          r={0.95}
+          transform="translate(423.781 4273.503)"
+          fill="#fff"
+        />
+        <Circle
+          data-name="Ellipse 3780"
+          cx={0.95}
+          cy={0.95}
+          r={0.95}
+          transform="translate(430.851 4273.525)"
+          fill="#fff"
+        />
+        <Circle
+          data-name="Ellipse 3781"
+          cx={0.95}
+          cy={0.95}
+          r={0.95}
+          transform="translate(434.352 4274.791)"
+          fill="#fff"
+        />
+        <Path
+          data-name="Path 32115"
+          d="M349.493 4191.609l-1.051 18.144h0c.034 1.065-2.888 1.823-6.519 1.941s-6.588-.452-6.623-1.519l-2.2-17.953c2.961 2.149 13.572 1.723 16.393-.613z"
+          fill="#ffa400"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 32116"
+          d="M369.563 4241.588l-.063-1.625.87-.122c1.385-.694 14.231-1.107 15.662-.5l.86.066.058 1.624c.032.637-3.838 1.686-8.641 1.84s-8.709-.524-8.746-1.283z"
+          transform="translate(-36.898 -48.894)"
+          fill="#fff"
+        />
+        <Ellipse
+          data-name="Ellipse 3662"
+          cx={8.695}
+          cy={1.074}
+          rx={8.695}
+          ry={1.074}
+          transform="rotate(-1.835 130982.91 -8288.17)"
+          fill="#262626"
+        />
+        <Path
+          data-name="Path 32117"
+          d="M371.846 4239.017l-.036-1.02.678-.107c1.09-.453 11.166-.775 12.283-.395l.676.063.036 1.02c.022.688-3.023 1.166-6.788 1.286s-6.827-.158-6.849-.847z"
+          transform="translate(-37.378 -48.538)"
+          fill="#fff"
+        />
+        <Path
+          data-name="Path 32118"
+          d="M378.652 4238.42c3.763-.122 6.808-.543 6.795-.941s-3.076-.624-6.841-.5-6.808.542-6.795.941 3.075.62 6.841.5z"
+          transform="translate(-37.378 -48.458)"
+          fill="#262626"
+        />
+        <Path
+          data-name="Path 34184"
+          d="M284.389 4169.487a10.393 10.393 0 112.951-14.4 10.394 10.394 0 01-2.951 14.4z"
+          fill="#5d5d5d"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34185"
+          d="M268.272 4160.714l.7 31.054.216 8.079a15.386 15.386 0 0016.759 14.912l42.137-3.789 1.466-4.386c1.191-4.54-1.365-10.243-1.365-10.243l-.283-.694-37.548-4.216-1.36-30.13"
+          fill="#5d5d5d"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34186"
+          d="M337.62 4196.122c.539-1.11 1.314-1.484 3.083-2.477s1.716-4.407-.149-3.071-6 2.739-7.841 3.338c-1.322.54-3.353 1.667-4.768 2.281a9.683 9.683 0 01-1.057.265c-2.74.484-5.28.267-6.907 3.585a6.8 6.8 0 00.361 6.818 6.713 6.713 0 005.525 2.951v.008a90.7 90.7 0 0011.631 1.341c5.771.144 11.05-2.056 10.622-4.178-.178-.884-3.015-.1-4.8.247-1.222.233-2.045-.149-2-.295 0 0 9.19-1.967 8.843-4.061-.208-1.249-.917-1.008-3.313-.3a17.446 17.446 0 01-5.327.618c-.116-.068 6.637-.909 8.664-2.959 1.218-1.232.133-2.27-2.489-1.727s-7.048 1.038-7.048 1.038c2.384-.006 9.24-1.855 8.887-3.476-.49-2.25-7.146.136-7.146.136l-7.565.062"
+          fill="#ffac9c"
+          stroke="#262626"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <Path
+          data-name="Path 34187"
+          d="M278.078 4229.841s.6 3.234 9.534 7.016c8.048 3.406 9.175 8.558 13.143 8.151s1.716-31.421 1.716-31.421"
+          fill="#3d3d3d"
+          stroke="#262626"
+          strokeMiterlimit={10}
+          strokeWidth={1}
+        />
+        <G
+          data-name="Group 26639"
+          transform="translate(332.849 4189.765)"
+          clipPath="url(#a)"
+        >
+          <G data-name="Group 25241">
+            <G data-name="Group 25232">
+              <G data-name="Group 25231">
+                <G data-name="Path 32115">
+                  <Path
+                    data-name="Path 34188"
+                    d="M386.517 4240.884l-1.051 18.144c.034 1.065-2.888 1.823-6.519 1.941s-6.588-.452-6.623-1.519l-2.2-17.953c2.961 2.149 13.576 1.723 16.393-.613z"
+                    transform="translate(-.29 -1.197) translate(.024 2.239) translate(-369.615 -4239.999)"
+                    fill="#ffa400"
+                  />
+                  <Path
+                    data-name="Path 34189"
+                    d="M377.983 4261.146c-1.99 0-6.132-.206-6.188-1.914l-2.312-18.82.737.533c2.8 2.03 13.212 1.639 15.912-.6l.7-.582-1.1 19.052c.065 1.986-5.737 2.275-6.9 2.313-.185.01-.48.018-.849.018zM370.477 4242l2.108 17.171c.021.58 2.248 1.31 6.218 1.169s6.152-.987 6.135-1.532l1.006-17.387c-3.407 1.87-11.97 2.19-15.467.579z"
+                    transform="translate(-.29 -1.197) translate(.024 2.239) translate(-369.483 -4239.768)"
+                    fill="#262626"
+                  />
+                </G>
+              </G>
+            </G>
+            <G data-name="Group 25234">
+              <G data-name="Group 25233">
+                <G data-name="Path 32116">
+                  <Path
+                    data-name="Path 34190"
+                    d="M369.559 4241.588l-.063-1.625.87-.122c1.385-.694 14.231-1.107 15.662-.5l.86.066.058 1.624c.032.637-3.838 1.686-8.641 1.84s-8.705-.524-8.746-1.283z"
+                    transform="translate(-.29 -1.197) translate(.034 1.667) translate(-369.496 -4239.046)"
+                    fill="#fff"
+                  />
+                </G>
+              </G>
+            </G>
+            <G data-name="Group 25236">
+              <G data-name="Group 25235">
+                <G data-name="Ellipse 3662">
+                  <Ellipse
+                    data-name="Ellipse 3782"
+                    cx={8.695}
+                    cy={1.074}
+                    rx={8.695}
+                    ry={1.074}
+                    transform="translate(-.29 -1.197) translate(0 .954) rotate(-1.835 17.39 .279)"
+                    fill="#262626"
+                  />
+                </G>
+              </G>
+            </G>
+            <G data-name="Group 25238">
+              <G data-name="Group 25237">
+                <G data-name="Path 32117">
+                  <Path
+                    data-name="Path 34191"
+                    d="M371.842 4239.017l-.036-1.02.678-.107c1.09-.453 11.166-.775 12.283-.395l.676.063.036 1.02c.022.688-3.023 1.166-6.788 1.286s-6.827-.158-6.849-.847z"
+                    transform="translate(-.29 -1.197) translate(1.865 .305) translate(-371.806 -4237.327)"
+                    fill="#fff"
+                  />
+                </G>
+              </G>
+            </G>
+            <G data-name="Group 25240">
+              <G data-name="Group 25239">
+                <G data-name="Path 32118">
+                  <Path
+                    data-name="Path 34192"
+                    d="M378.648 4238.42c3.763-.122 6.808-.543 6.795-.941s-3.076-.624-6.841-.5-6.808.542-6.795.941 3.075.62 6.841.5z"
+                    transform="translate(-.29 -1.197) translate(1.865) translate(-371.807 -4236.942)"
+                    fill="#262626"
+                  />
+                </G>
+              </G>
+            </G>
+          </G>
+        </G>
+      </G>
+    </Svg>
+  )
+}
